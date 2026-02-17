@@ -1,0 +1,8 @@
+.prose p {
+  margin-bottom: 1.5em; /* veya istediğiniz boşluk değeri */
+}
+
+/* Özel büyük boşluklar için bir sınıf */
+.prose .space-large {
+  margin-bottom: 3em;
+}
