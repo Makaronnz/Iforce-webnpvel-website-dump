@@ -1,0 +1,12 @@
+name = "ironforce-site"
+compatibility_date = "2024-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "bun run build"
+
+[site]
+bucket = ".next"
+
+[env.production]
+NODE_VERSION = "20"
