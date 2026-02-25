@@ -47,8 +47,8 @@ exports.handler = async function(event, context) {
       }]
     };
     
-    // Use the Discord webhook URL from environment variables or the one from .env
-    const webhookUrl = process.env.DISCORD_WEBHOOK_URL || "https://discord.com/api/webhooks/1352437115970916406/z7qQibBjHgHO-8HAEfZxhKQlDWASHAvqwcLB1erRDZ7JDzO41r6H2y1NDNW3NIbO2EcV";
+    
+    const webhookUrl = process.env.DISCORD_WEBHOOK_URL || "test";
     
     const response = await fetch(webhookUrl, {
       method: "POST",
